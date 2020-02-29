@@ -1,0 +1,12 @@
+@import '../../_scss/_mixins.scss';
+@import '../../_scss/_variables.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: $black;
+}

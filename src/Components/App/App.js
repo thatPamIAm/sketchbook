@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import SketchView from '../SketchView/SketchView'
 
 const App = () => {
   return (
     <div className="App">
-      <h1>sketchbook</h1>
+      <SketchView />
     </div>
   );
 }
