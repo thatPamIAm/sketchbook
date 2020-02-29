@@ -3,11 +3,25 @@
 
 .sketch-view {
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sketch-and-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .signature {
   color: $white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.arrow {
+  height: 2em;
+  margin: 5em;
 }
