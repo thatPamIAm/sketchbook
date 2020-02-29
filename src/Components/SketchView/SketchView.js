@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import P5Wrapper from 'react-p5-wrapper'
 import './SketchView.scss'
-import * as sketches from '../../Sketches/sketch_02_29_2020';
+import * as sketches from '../../Sketches/sketchbook';
 import rightArrow from '../../Assets/Images/002-next.svg'
 import leftArrow from '../../Assets/Images/001-back.svg'
 
@@ -24,7 +24,8 @@ const SketchView = () => {
           onClick={() => setCount(count + 1)}
         />
       </div>
-      <div className='signature'>
+      <div className='meta-data'>
+        <p>{sketchNames[count]}</p>
         <p>s. ertmer</p>
       </div>
     </div>

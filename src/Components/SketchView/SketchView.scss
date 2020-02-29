@@ -14,12 +14,13 @@
   align-items: center;
 }
 
-.signature {
+.meta-data {
   color: $white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   font-family: 'Orbitron';
+  font-size: larger
 }
 
 .arrow {

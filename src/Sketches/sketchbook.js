@@ -1,4 +1,4 @@
-export function sketch(p) {
+export const february_29_2020 = (p) =>  {
   let canvas
 
   p.setup = () => {
@@ -17,7 +17,7 @@ export function sketch(p) {
   }
 }
 
-export function sketch1(p) {
+export const february_29_2020_part_two = (p) => {
   let canvas
 
   p.setup = () => {
