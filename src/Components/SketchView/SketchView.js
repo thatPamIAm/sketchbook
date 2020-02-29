@@ -4,10 +4,13 @@ import './SketchView.scss'
 import sketch from '../../Sketches/sketch_02_29_2020';
 
 const SketchView = () => {
-  
+
   return (
     <div className='sketch-view'>
       <P5Wrapper sketch={sketch} />
+      <div className='signature'>
+        <p>s. ertmer</p>
+      </div>
     </div>
 
   )

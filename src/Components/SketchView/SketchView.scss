@@ -4,3 +4,10 @@
 .sketch-view {
   justify-content: center;
 }
+
+.signature {
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
